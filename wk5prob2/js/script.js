@@ -7,7 +7,7 @@ Or it may accept a classname (for the text inputs) and an ID (where to write the
 There are other ways, too. The important thing about your solution is that it reduce the duplication of code we see here, and consolidate some of that functionality into a function.    
 */
 
-"use strict"
+"use strict";
 //arrays in anonymous function reduce repetitive code remaining after factoring
 document.getElementById("doIt").onclick = function(){
     var cn = [ "row1", "row2", "row3" ], id = [ "row1Average", "row2Average", "row3Average" ], 
